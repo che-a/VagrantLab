@@ -7,6 +7,6 @@ Host vagrant-vm
         UserKnownHostsFile /dev/null
         StrictHostKeyChecking no
         # PasswordAuthentication no
-        IdentityFile "/home/triton/.ssh/vagrant"
+        IdentityFile "~/.ssh/vagrant"
         IdentitiesOnly yes
         
