@@ -1,0 +1,12 @@
+# ~/.ssh/config на хост-системе
+
+Host vagrant-vm
+        HostName 127.0.0.1
+        Port 2222
+        User vagrant
+        UserKnownHostsFile /dev/null
+        StrictHostKeyChecking no
+        # PasswordAuthentication no
+        IdentityFile "/home/triton/.ssh/vagrant"
+        IdentitiesOnly yes
+        
